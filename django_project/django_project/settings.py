@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'blog.apps.BlogConfig', # NEEDED TO ADD TEMPLATES
+    'users.apps.UsersConfig',
 
     'django.contrib.admin',
     'django.contrib.auth',
